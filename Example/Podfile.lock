@@ -1,0 +1,16 @@
+PODS:
+  - NavView (0.1.0)
+
+DEPENDENCIES:
+  - NavView (from `../`)
+
+EXTERNAL SOURCES:
+  NavView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NavView: 89e4faa52262e396539529612e6c0c11302225ae
+
+PODFILE CHECKSUM: eaabef91fd521777cb4163c9c63fbfef5842a2b4
+
+COCOAPODS: 1.7.5

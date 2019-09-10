@@ -1,0 +1,6 @@
+framework module NavView {
+  umbrella header "NavView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -56,11 +56,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6EA7D149FE5685A719A803DC /* NavView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NavView.podspec; path = ../NavView.podspec; sourceTree = "<group>"; };
+		6EA7D149FE5685A719A803DC /* NavView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavView.podspec; path = ../NavView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D8FD73B7D2B0CEE7A9D200D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7D8FD73B7D2B0CEE7A9D200D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7E11677F134CAACD4ED4D744 /* Pods_NavView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		852EDE4E262A279A3F02608C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		852EDE4E262A279A3F02608C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B945BBFC3E41FFD0AB710408 /* Pods-NavView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavView_Example.release.xcconfig"; path = "Target Support Files/Pods-NavView_Example/Pods-NavView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD430B0FD676E26C7D43205A /* Pods_NavView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				CC25E04484EFB5DC64B7C60F /* Pods-NavView_Tests.debug.xcconfig */,
 				DE925ADE7CB9B937B526BD2F /* Pods-NavView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = huangxiaolin0425;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = U34TS85T6V;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,9 +497,11 @@
 			baseConfigurationReference = D21870D7D990462F127C3517 /* Pods-NavView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U34TS85T6V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavView/NavView-Prefix.pch";
 				INFOPLIST_FILE = "NavView/NavView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +515,11 @@
 			baseConfigurationReference = B945BBFC3E41FFD0AB710408 /* Pods-NavView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U34TS85T6V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavView/NavView-Prefix.pch";
 				INFOPLIST_FILE = "NavView/NavView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
