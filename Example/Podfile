@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'NavView_Example' do
+  pod 'NavView', :path => '../'
+
+  target 'NavView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
