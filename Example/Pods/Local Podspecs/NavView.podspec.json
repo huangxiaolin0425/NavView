@@ -1,8 +1,8 @@
 {
   "name": "NavView",
-  "version": "0.1.0",
-  "summary": "A short description of NavView.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "A short description of NavView.简单的导航",
+  "description": "TODO: Add long description of the pod here.导航",
   "homepage": "https://github.com/huangxiaolin0425/NavView",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/huangxiaolin0425/NavView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "NavView/Classes/**/*"
 }

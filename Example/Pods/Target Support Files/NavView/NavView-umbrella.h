@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NavView.h"
 
 FOUNDATION_EXPORT double NavViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char NavViewVersionString[];

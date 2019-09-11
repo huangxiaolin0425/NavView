@@ -1,5 +1,5 @@
 PODS:
-  - NavView (0.1.0)
+  - NavView (0.1.2)
 
 DEPENDENCIES:
   - NavView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NavView: 89e4faa52262e396539529612e6c0c11302225ae
+  NavView: 3172d18201fcf25c4fed7fb4a10ae17484e0bc19
 
 PODFILE CHECKSUM: eaabef91fd521777cb4163c9c63fbfef5842a2b4
 

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C22046B634DD971550FAF00EC75881 /* NavView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5093C07BB744451EDA3674E83458B4 /* NavView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14EE2E220A543054C6E730B3B4434C89 /* Pods-NavView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B905A2B93383A610E22CA6C4A51FA52 /* Pods-NavView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AEC8A808A50BF2DF90A8748CBA88ABA /* NavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 417028256FDE02DF497F678ECE72F300 /* NavView.m */; };
+		1F4992CDB0669985BA5C5E00B56A60CA /* NavView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91D53214A6B794434848077FECFB59 /* NavView-dummy.m */; };
 		4EBE8DE1A13A58613DFBD1E41DFFFD6C /* Pods-NavView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE188415D80FFD045BBC04751D731A4 /* Pods-NavView_Example-dummy.m */; };
 		518BBE296C8A46DEBB7A367C9D233D7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		59BD9B68B15BBBAD1B91CABE633636B3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B93F674EA300EAFD2CA328387DAFE1 /* ReplaceMe.m */; };
 		5ECFF8C0F3A334113701E0D9643B7EA2 /* Pods-NavView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C521AAFB284555CF31AD11FBCDBB7834 /* Pods-NavView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C81F83077B8316FCE35AF9990A42C7D /* Pods-NavView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FF752CB18609DD8308753A3DCF53AA /* Pods-NavView_Tests-dummy.m */; };
-		9CA2D6AA2744FD7B654D007341C65DE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E16018E79886E2345B2658F2A2ED4CFC /* NavView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422CAE611D481DBBBD26FF8DF19E8A8 /* NavView-dummy.m */; };
+		A5BEE339BF991A838637603F87BD567D /* NavView.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E58DCC329A380657107DAB742BCD8C /* NavView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C91100C20472EF90AD89CB21EB3B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E3FD819071ECB26D55F18C456CE12574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EADF9C62F64D01C662F80E30F917A45D /* NavView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC14E37BBFAD01DB4ABD238DDBA091FB /* NavView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,18 +41,21 @@
 		164EAEE9D0701ACDF3544002ED496B4F /* Pods-NavView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		17C93CBA36001B6990ABD49772D40C91 /* Pods-NavView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavView_Example-Info.plist"; sourceTree = "<group>"; };
 		30790D7AC7D05F3CD45BD2D6CFF07231 /* NavView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavView.framework; path = NavView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31ACDAE4B5426BE36F09D27BDE369E89 /* NavView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavView.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34CBA87ABBD36525478A4AD3506B0AB2 /* NavView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavView-Info.plist"; sourceTree = "<group>"; };
 		35B514D10381C9DCF6C1F4F896824EF8 /* Pods-NavView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		37C8B7C51767E15BB4275378132A9D23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3E1685A8F5F7F6ABE30E9816CCCBEFAA /* NavView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavView.xcconfig; sourceTree = "<group>"; };
-		427A3C2714714FB4CFA27010E34C857A /* NavView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NavView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		417028256FDE02DF497F678ECE72F300 /* NavView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NavView.m; path = NavView/Classes/NavView.m; sourceTree = "<group>"; };
 		498EA94D45236081C7DE74B916E8851C /* Pods-NavView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C620906D1640CF56A4BEF19598F92F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62AFB8A0E594A63F967DBA48AB906BCF /* NavView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavView-prefix.pch"; sourceTree = "<group>"; };
 		6B905A2B93383A610E22CA6C4A51FA52 /* Pods-NavView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavView_Example-umbrella.h"; sourceTree = "<group>"; };
+		6D1C2C5F0DA6CD6A3401539627CD2801 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74E58DCC329A380657107DAB742BCD8C /* NavView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NavView.h; path = NavView/Classes/NavView.h; sourceTree = "<group>"; };
 		75B78005C2B205EBDD970C3713AE75F5 /* Pods-NavView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NavView_Tests.modulemap"; sourceTree = "<group>"; };
-		8422CAE611D481DBBBD26FF8DF19E8A8 /* NavView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavView-dummy.m"; sourceTree = "<group>"; };
+		897E379AC408E960AFF85789F92128C4 /* NavView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NavView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8E4293A4A3410059E20B139433CE00AE /* Pods-NavView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavView_Tests-Info.plist"; sourceTree = "<group>"; };
-		8F33E3E1D4B5CD607976703D5D31F020 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93FFBE133C320C7CED262180D6E836AC /* NavView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavView-Info.plist"; sourceTree = "<group>"; };
+		970C145113659855CDC5F27E40F55466 /* NavView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavView.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E50814FF6DB545F1C11908EBD6A50E5 /* Pods-NavView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F389581E0219480813B501CAA731760 /* Pods-NavView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,32 +63,30 @@
 		A9D79A2CC3018220ECA3DAD183B506C1 /* Pods-NavView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACE188415D80FFD045BBC04751D731A4 /* Pods-NavView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavView_Example-dummy.m"; sourceTree = "<group>"; };
 		B2BDCBF6EC0DA0303601CAF6330D62A9 /* Pods-NavView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF5093C07BB744451EDA3674E83458B4 /* NavView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavView-umbrella.h"; sourceTree = "<group>"; };
 		C2FF752CB18609DD8308753A3DCF53AA /* Pods-NavView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavView_Tests-dummy.m"; sourceTree = "<group>"; };
 		C521AAFB284555CF31AD11FBCDBB7834 /* Pods-NavView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C6B93F674EA300EAFD2CA328387DAFE1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NavView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		CC14E37BBFAD01DB4ABD238DDBA091FB /* NavView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavView-umbrella.h"; sourceTree = "<group>"; };
 		D084A4576BD674C6C0CD84747178C3E5 /* Pods-NavView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NavView_Example.modulemap"; sourceTree = "<group>"; };
-		D32922857A7780E0FDAF8F363FDCEF83 /* NavView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavView.modulemap; sourceTree = "<group>"; };
 		DC0298B88EEBBECCCF61AD201A4BE75D /* Pods-NavView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC76200E1896E6EF26801D848FC8F633 /* Pods_NavView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavView_Example.framework; path = "Pods-NavView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8E7AF38EA7700220B2D3B779D159FAC /* NavView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavView-prefix.pch"; sourceTree = "<group>"; };
+		ED91D53214A6B794434848077FECFB59 /* NavView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavView-dummy.m"; sourceTree = "<group>"; };
 		F228A87D7AC9F885EBD77E5ED744AD3F /* Pods_NavView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavView_Tests.framework; path = "Pods-NavView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B60EABC1E70A52226EB438D8370B164 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9CA2D6AA2744FD7B654D007341C65DE0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		496AC21C1C71054591E9525FADB0E525 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				518BBE296C8A46DEBB7A367C9D233D7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5848501CABE1A27B4871F627B0394A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C91100C20472EF90AD89CB21EB3B3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,20 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19A986E1013F02D9BB27904A23B8DA90 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D32922857A7780E0FDAF8F363FDCEF83 /* NavView.modulemap */,
-				3E1685A8F5F7F6ABE30E9816CCCBEFAA /* NavView.xcconfig */,
-				8422CAE611D481DBBBD26FF8DF19E8A8 /* NavView-dummy.m */,
-				93FFBE133C320C7CED262180D6E836AC /* NavView-Info.plist */,
-				E8E7AF38EA7700220B2D3B779D159FAC /* NavView-prefix.pch */,
-				CC14E37BBFAD01DB4ABD238DDBA091FB /* NavView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NavView";
-			sourceTree = "<group>";
-		};
 		4EBBF558035F536D599A3C23213660E5 /* Pods-NavView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,15 +134,12 @@
 			path = "Target Support Files/Pods-NavView_Example";
 			sourceTree = "<group>";
 		};
-		A2B66759B76E5493675712574F4C6D79 /* NavView */ = {
+		AB6215F7EE7EC27AF8CD9860FB7C0772 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C6B93F674EA300EAFD2CA328387DAFE1 /* ReplaceMe.m */,
-				CDE6118BF67FB37694EB8832AA2BDDEA /* Pod */,
-				19A986E1013F02D9BB27904A23B8DA90 /* Support Files */,
+				F3C57F99CD2CB809C76BCD3AE09DEB3C /* NavView */,
 			);
-			name = NavView;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B171FDDCBE42F576102D9438C65F1E89 /* Products */ = {
@@ -175,25 +160,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CDE6118BF67FB37694EB8832AA2BDDEA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				37C8B7C51767E15BB4275378132A9D23 /* LICENSE */,
-				427A3C2714714FB4CFA27010E34C857A /* NavView.podspec */,
-				8F33E3E1D4B5CD607976703D5D31F020 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FC737BF079F59E4E5CDCFB90AC1796A0 /* Development Pods */,
+				AB6215F7EE7EC27AF8CD9860FB7C0772 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B171FDDCBE42F576102D9438C65F1E89 /* Products */,
 				DD6D92C64B5B0BC6B726BE50BF40C3B9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1FAF748F3913B2E8148D0B314F8ADD5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D1C2C5F0DA6CD6A3401539627CD2801 /* LICENSE */,
+				897E379AC408E960AFF85789F92128C4 /* NavView.podspec */,
+				5C620906D1640CF56A4BEF19598F92F2 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -213,12 +198,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FC737BF079F59E4E5CDCFB90AC1796A0 /* Development Pods */ = {
+		ECD7005D6298C7F1051A21458F46B774 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2B66759B76E5493675712574F4C6D79 /* NavView */,
+				970C145113659855CDC5F27E40F55466 /* NavView.modulemap */,
+				31ACDAE4B5426BE36F09D27BDE369E89 /* NavView.xcconfig */,
+				ED91D53214A6B794434848077FECFB59 /* NavView-dummy.m */,
+				34CBA87ABBD36525478A4AD3506B0AB2 /* NavView-Info.plist */,
+				62AFB8A0E594A63F967DBA48AB906BCF /* NavView-prefix.pch */,
+				BF5093C07BB744451EDA3674E83458B4 /* NavView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NavView";
+			sourceTree = "<group>";
+		};
+		F3C57F99CD2CB809C76BCD3AE09DEB3C /* NavView */ = {
+			isa = PBXGroup;
+			children = (
+				74E58DCC329A380657107DAB742BCD8C /* NavView.h */,
+				417028256FDE02DF497F678ECE72F300 /* NavView.m */,
+				D1FAF748F3913B2E8148D0B314F8ADD5 /* Pod */,
+				ECD7005D6298C7F1051A21458F46B774 /* Support Files */,
+			);
+			name = NavView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +243,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDBC2754AB6A08FF847131872BF40E79 /* Headers */ = {
+		A4ECDF294E6860612C652178A2149952 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EADF9C62F64D01C662F80E30F917A45D /* NavView-umbrella.h in Headers */,
+				12C22046B634DD971550FAF00EC75881 /* NavView-umbrella.h in Headers */,
+				A5BEE339BF991A838637603F87BD567D /* NavView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +276,12 @@
 		};
 		E4417AB06C50CAC636798752C3F30206 /* NavView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87F9F507BB9427BF8DDCA6CFA0B6E374 /* Build configuration list for PBXNativeTarget "NavView" */;
+			buildConfigurationList = 38F665ACD01A86D64314D19AEBBD38BB /* Build configuration list for PBXNativeTarget "NavView" */;
 			buildPhases = (
-				BDBC2754AB6A08FF847131872BF40E79 /* Headers */,
-				E3A05963A4DC041D5357C3C120AD627F /* Sources */,
-				2B60EABC1E70A52226EB438D8370B164 /* Frameworks */,
-				A0A6BE063C5D59C4968BFC012A53B9D1 /* Resources */,
+				A4ECDF294E6860612C652178A2149952 /* Headers */,
+				253F8A4CE694F10119940B015F8E82BB /* Sources */,
+				5848501CABE1A27B4871F627B0394A14 /* Frameworks */,
+				B2E1B278B8D92D2F6C4132456B981DF0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0A6BE063C5D59C4968BFC012A53B9D1 /* Resources */ = {
+		B2E1B278B8D92D2F6C4132456B981DF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,20 +372,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		253F8A4CE694F10119940B015F8E82BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4992CDB0669985BA5C5E00B56A60CA /* NavView-dummy.m in Sources */,
+				1AEC8A808A50BF2DF90A8748CBA88ABA /* NavView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4D56B2011DA56B5BE6B13A51B6A8053D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C81F83077B8316FCE35AF9990A42C7D /* Pods-NavView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3A05963A4DC041D5357C3C120AD627F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E16018E79886E2345B2658F2A2ED4CFC /* NavView-dummy.m in Sources */,
-				59BD9B68B15BBBAD1B91CABE633636B3 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,38 +534,6 @@
 			};
 			name = Release;
 		};
-		6D223F00EA5D5C50DCB17DEFF037DBFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E1685A8F5F7F6ABE30E9816CCCBEFAA /* NavView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NavView/NavView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NavView/NavView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NavView/NavView.modulemap";
-				PRODUCT_MODULE_NAME = NavView;
-				PRODUCT_NAME = NavView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -660,10 +632,11 @@
 			};
 			name = Release;
 		};
-		A4E82FE9E1907F48753F7734B4E28A9B /* Debug */ = {
+		8B7F3261D134965ED93C9CC29E1042B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E1685A8F5F7F6ABE30E9816CCCBEFAA /* NavView.xcconfig */;
+			baseConfigurationReference = 31ACDAE4B5426BE36F09D27BDE369E89 /* NavView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,7 +649,40 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NavView/NavView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NavView/NavView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NavView/NavView.modulemap";
+				PRODUCT_MODULE_NAME = NavView;
+				PRODUCT_NAME = NavView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B886B0640D253890F540935F227F0EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31ACDAE4B5426BE36F09D27BDE369E89 /* NavView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavView/NavView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavView/NavView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NavView/NavView.modulemap";
 				PRODUCT_MODULE_NAME = NavView;
@@ -727,6 +733,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38F665ACD01A86D64314D19AEBBD38BB /* Build configuration list for PBXNativeTarget "NavView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B886B0640D253890F540935F227F0EC0 /* Debug */,
+				8B7F3261D134965ED93C9CC29E1042B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -741,15 +756,6 @@
 			buildConfigurations = (
 				F30CEDDA07182DAEB399DCF23D5BFBA6 /* Debug */,
 				8987BFA59681BC9D9CF70A47D357553B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		87F9F507BB9427BF8DDCA6CFA0B6E374 /* Build configuration list for PBXNativeTarget "NavView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4E82FE9E1907F48753F7734B4E28A9B /* Debug */,
-				6D223F00EA5D5C50DCB17DEFF037DBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
